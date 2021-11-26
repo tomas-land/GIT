@@ -26,6 +26,8 @@ $ git branch | grep -v "main" | xargs git branch -D    //delete all branches exc
 6 when working in team ,before creating new feature branch you must pull origin develop to avoid conflicts if somebody changed the code<br>
 <br>
 # git pull vs git fetch<br>
+  git pull - fetch changes from remote repo and merge<br>
+git fetch - only fetch data to local repo to see difference<br>
 <br>
 <br>
 <br>
